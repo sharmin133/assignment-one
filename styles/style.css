@@ -136,6 +136,9 @@ pillars section */
     font-size: 20px ;
 }
 
+.vision{
+    margin-top: 80px;
+}
 
 .vision-container{
     display: flex;
@@ -258,15 +261,18 @@ pillars section */
 
 
 /* styles of news */
-
+.news{
+    margin-top: 80px;
+}
 
 .vision-btn1{
     background-color: #006A50;
 }
 
 .news1{
+    margin-top: 32px;
     display: flex;
-
+border-radius: 24px;
     align-items: start;
    background-color: #FFFFFF;
    gap: 32px;
@@ -274,11 +280,10 @@ pillars section */
 }
 
 
-
-
 .news2{
-   
+   margin-top: 24px;
     display: flex;
+    border-radius: 24px;
     align-items:start;
     flex-direction: row-reverse;
    background-color: #FFFFFF;
@@ -286,14 +291,14 @@ pillars section */
    padding: 48px 48px;
 }
 .news3{
-    .news1{
+    margin-top:24px ;
         display: flex;
-
+        border-radius: 24px;
         align-items: start;
        background-color: #FFFFFF;
        gap: 32px;
        padding: 48px 48px;
-    } 
+    
 }
 
 
@@ -304,6 +309,7 @@ pillars section */
 
 
 .donate{
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -311,28 +317,32 @@ pillars section */
 }
 
 .donate-description{
+    margin-top: 24px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: rgba(14, 14, 14, 0.7);
 }
 
  .taka{
+    margin-top: 32px;
     font-size:40px;
     font-weight: bold;
     background-color: #FFFFFF;
     border-radius: 16px;
     gap: 24px;
-    padding: 24px 24px;
+    padding: 40px 40px;
     align-items: center;
 
 }
 .taka1{
+    margin-top: 32px;
     font-size:40px;
     font-weight: bold;
     background-color: lightblue;
     border-radius: 16px;
     gap: 24px;
-    padding: 24px 24px;
+    padding: 40px 40px;
     align-items: center;
 }
 
@@ -343,19 +353,21 @@ pillars section */
 
 .amount{
 
-
+   
     background-color: #FFFFFF;
     align-items: center;
     width: 1032px;
     height: 64px;
-   margin: 32px;
+    margin: 32px;
    text-align: center;
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 20px;
 
 
 }
 
 .other{
-    
+    margin-top: 24git px;
     background-color: #006A50;
     align-items: center;
     width: 151px;
