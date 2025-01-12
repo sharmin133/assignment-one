@@ -215,36 +215,44 @@ pillars section */
 }
 
 
-
-
-.speech{
-    padding: 0px 0px;
-    margin-top: 50px;
-    border: 5px solid black;
-    border-radius: 16px;
-    justify-content:space-around;
-}
 /* styles of speech */
 
-.description-speech{
+.speech{
     display: flex;
     background-color:#FFFFFF;
-    padding:  24px 24px;
+    flex-direction: column;
+    margin-top: 32px;
     border-radius: 16px;
-    gap: 24px;
+    justify-content: space-between;
+    padding:24px 24px;
+    gap: 0px;
+}
 
-    
+
+.description-speech{
+    padding:24px 0px;
+    color: rgba(14, 14, 14, 0.8);
 
   background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  
 
 }
+
+
 
 .name{
     font-weight: 600;
     font-size: 20px;
+    margin-top: 12px;
 }
 
+.chief{
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 0px;
+}
 
 
 
@@ -318,9 +326,18 @@ pillars section */
     align-items: center;
 
 }
+.taka1{
+    font-size:40px;
+    font-weight: bold;
+    background-color: lightblue;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px 24px;
+    align-items: center;
+}
 
 .taka:hover{
-    background-color: #C6E4D6;
+    background-color: gold;
 }
 
 
@@ -332,6 +349,7 @@ pillars section */
     width: 1032px;
     height: 64px;
    margin: 32px;
+   text-align: center;
 
 
 }
@@ -367,6 +385,7 @@ pillars section */
 .enter{
     width: 600px;
     height: 55px;
+    text-align: center;
 }
 
 form{
